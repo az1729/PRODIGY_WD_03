@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <script src="./assets/scripts/script.js"></script>
+    <link rel="shortcut icon" href="./assets/icon.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <h1>Tic Tac Toe</h1>
+
+    <div class="pla">
+        <button class="btn" id="two-players-btn" onclick="chooseTwoPlayers()">Two Players</button>
+        <button class="btn" id="with-computer-btn" onclick="chooseWithComputer()">With Computer</button>
+    </div>
+    <button class="btn" id="start-btn" onclick="startGame()">Start Game</button>
+
+    <div id="board"></div>
+
+    <div id="winner-popup">
+        <h2 id="winner-message"></h2>
+        <button class="btn" id="reset-btn" onclick="resetGame()">Restart Game</button>
+    </div>
+    <footer>
+        &COPY;2024 - Created by Giridharan S <br>All Right Reserved
+    </footer>
+
+</body>
+
+</html>
